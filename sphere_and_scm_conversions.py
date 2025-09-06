@@ -1,3 +1,6 @@
+"""
+Conversions. See Charles T. Campbell's papers on the SCM and HCM
+"""
 import numpy as np
 from ase.build import bulk
 from ase import Atoms
