@@ -1,3 +1,6 @@
+"""
+I mostly use this for setting up neighborlist and analysis objects
+"""
 #!/usr/bin/env python
 from ase.neighborlist import NeighborList, natural_cutoffs
 from argparse import ArgumentParser
@@ -104,9 +107,6 @@ if __name__ == "__main__":
         result = get_bond_lengths(types,analyzer)
         if result:
             all_bonds_and_types.append(result)
-
-    #fancier method for doing the same, says ChatGPT:
-        #all_bonds_and_types = [result for types in possible_bond_types if (result := get_bond_lengths(types, analyzer))]
 
     print("Here are your bond lengths:\n")
     unscramble(all_bonds_and_types)
