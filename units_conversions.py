@@ -1,3 +1,8 @@
+"""
+Units conversions
+
+Lots of more work to do here
+"""
 import numpy as np
 from ase.units import (_Nav, Angstrom, bar, Bohr,
         Hartree, kJ, kg, second)
