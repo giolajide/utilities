@@ -1,3 +1,6 @@
+"""
+Check the sanity of water structures and supported nanoparticles
+"""
 import numpy as np
 import matplotlib.pyplot as plt
 from ase.io import read
