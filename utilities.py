@@ -1,3 +1,5 @@
+"""
+Random functions, some very useful though"""
 import numpy as np
 from ase.build import bulk
 from ase import Atoms
